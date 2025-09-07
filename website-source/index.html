@@ -1,0 +1,203 @@
+<html>
+<head>
+    <title>Haltman Project</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+</head>
+<body style="background-color: black;">
+<style>
+    @font-face {
+        font-family: "IBM VGA 8x16";
+        src: url( "fonts/WebPlus_IBM_VGA_8x16.woff" ) format( "woff" );
+    }
+
+    /* This style code was forked from https://tramoia.sh/. Thanks, i really hate HTML and styles for mobile responsiveness */
+    @media only screen and (max-width: 1050px) {
+        body {
+        padding: 0;
+        align-items: flex-start; /* Start from top on mobile */
+        }
+
+        pre {
+        font-size: clamp(6px, 1.5vw, 11px); /* Slightly larger for better readability */
+        line-height: clamp(6px, 1.5vw, 11px); /* Keep line-height matching font-size */
+        }
+
+        .txtdiv {
+        padding: 5px;
+        width: 100vw;
+        overflow-x: auto;
+        }
+
+        img {
+        padding: 0;
+        width: 40%;
+        height: auto;
+        }
+    }
+
+    @media only screen and (max-width: 480px) {
+        body {
+        padding: 0;
+        }
+        pre {
+        font-size: clamp(5px, 2vw, 9px);
+        line-height: clamp(5px, 2vw, 9px);
+        }
+        .txtdiv {
+        padding: 3px;
+        font-size: 1em;
+        }
+    }
+
+</style>
+<div class="txtdiv">
+<pre style='font-family: "IBM VGA 8x16", monospace; line-height: 1em; white-space:pre-wrap; line-break: anywhere; width: 80ch; background: black; color: white; margin: auto'>
+
+<span style="color:gray; background:black"></span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/$$&nbsp;&nbsp;&nbsp;/$$&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/$$&nbsp;&nbsp;&nbsp;/$$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;¦&nbsp;$$&nbsp;&nbsp;¦&nbsp;$$&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;¦&nbsp;$$&nbsp;&nbsp;¦&nbsp;$$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;¦&nbsp;$$&nbsp;&nbsp;¦&nbsp;$$&nbsp;&nbsp;/$$$$$$&nbsp;¦&nbsp;$$&nbsp;/$$$$$$&nbsp;&nbsp;&nbsp;/$$$$$$/$$$$&nbsp;&nbsp;&nbsp;/$$$$$$&nbsp;&nbsp;/$$$$$$$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;¦&nbsp;$$$$$$$$&nbsp;¦____&nbsp;&nbsp;$$¦&nbsp;$$¦_&nbsp;&nbsp;$$_/&nbsp;&nbsp;¦&nbsp;$$_&nbsp;&nbsp;$$_&nbsp;&nbsp;$$&nbsp;¦____&nbsp;&nbsp;$$¦&nbsp;$$__&nbsp;&nbsp;$$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;¦&nbsp;$$__&nbsp;&nbsp;$$&nbsp;&nbsp;/$$$$$$$¦&nbsp;$$&nbsp;&nbsp;¦&nbsp;$$&nbsp;&nbsp;&nbsp;&nbsp;¦&nbsp;$$&nbsp;\&nbsp;$$&nbsp;\&nbsp;$$&nbsp;&nbsp;/$$$$$$$¦&nbsp;$$&nbsp;&nbsp;\&nbsp;$$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;¦&nbsp;$$&nbsp;&nbsp;¦&nbsp;$$&nbsp;/$$__&nbsp;&nbsp;$$¦&nbsp;$$&nbsp;&nbsp;¦&nbsp;$$&nbsp;/$$¦&nbsp;$$&nbsp;¦&nbsp;$$&nbsp;¦&nbsp;$$&nbsp;/$$__&nbsp;&nbsp;$$¦&nbsp;$$&nbsp;&nbsp;¦&nbsp;$$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;¦&nbsp;$$&nbsp;&nbsp;¦&nbsp;$$¦&nbsp;&nbsp;$$$$$$$¦&nbsp;$$&nbsp;&nbsp;¦&nbsp;&nbsp;$$$$/¦&nbsp;$$&nbsp;¦&nbsp;$$&nbsp;¦&nbsp;$$¦&nbsp;&nbsp;$$$$$$$¦&nbsp;$$&nbsp;&nbsp;¦&nbsp;$$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;¦__/&nbsp;&nbsp;¦__/&nbsp;\_______/¦__/&nbsp;&nbsp;&nbsp;\___/&nbsp;&nbsp;¦__/&nbsp;¦__/&nbsp;¦__/&nbsp;\_______/¦__/&nbsp;&nbsp;¦__/
+
+Inspired on <a href="https://tramoia.sh">https://tramoia.sh</a>, but for a different purpose.
+
+&nbsp;&nbsp;&nbsp;▄▄▄&nbsp;H&nbsp;I&nbsp;S&nbsp;T&nbsp;O&nbsp;R&nbsp;Y&nbsp;▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
+▄█▀&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▀█▄
+█▓&nbsp;&nbsp;In&nbsp;the&nbsp;shadows&nbsp;of&nbsp;circuits&nbsp;and&nbsp;echoes&nbsp;of&nbsp;terminals,&nbsp;a&nbsp;new&nbsp;voice&nbsp;rises.&nbsp;&nbsp;&nbsp;▓█
+█▓&nbsp;&nbsp;Haltman&nbsp;is&nbsp;not&nbsp;a&nbsp;revival&nbsp;of&nbsp;ghosts&nbsp;past,&nbsp;nor&nbsp;a&nbsp;borrowed&nbsp;mask&nbsp;from&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▓█
+█▓&nbsp;&nbsp;fallen&nbsp;banners.&nbsp;We&nbsp;are&nbsp;a&nbsp;signal&nbsp;born&nbsp;in&nbsp;Brazil,&nbsp;forged&nbsp;not&nbsp;from&nbsp;the&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▓█
+█▓&nbsp;&nbsp;ruins&nbsp;of&nbsp;nostalgia&nbsp;but&nbsp;from&nbsp;the&nbsp;raw&nbsp;will&nbsp;to&nbsp;learn,&nbsp;to&nbsp;explore,&nbsp;and&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▓█
+█▓&nbsp;&nbsp;to&nbsp;share.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▓█
+█▓&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▓█
+█▓&nbsp;&nbsp;Like&nbsp;most&nbsp;in&nbsp;Brazil,&nbsp;we&nbsp;grew&nbsp;up&nbsp;poor.&nbsp;Limited&nbsp;by&nbsp;the&nbsp;ridiculous&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▓█
+█▓&nbsp;&nbsp;culture&nbsp;of&nbsp;the&nbsp;average&nbsp;citizen,&nbsp;denied&nbsp;access&nbsp;to&nbsp;information,&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▓█
+█▓&nbsp;&nbsp;we&nbsp;looked&nbsp;up&nbsp;to&nbsp;the&nbsp;old-school&nbsp;groups.&nbsp;We&nbsp;admired&nbsp;them&nbsp;for&nbsp;the&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▓█
+█▓&nbsp;&nbsp;simple&nbsp;reason&nbsp;that&nbsp;they&nbsp;opened&nbsp;doors,&nbsp;allowing&nbsp;us&nbsp;to&nbsp;learn&nbsp;what&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▓█
+█▓&nbsp;&nbsp;corporations,&nbsp;governments,&nbsp;and&nbsp;private&nbsp;institutions&nbsp;chose&nbsp;to&nbsp;hide&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▓█
+█▓&nbsp;&nbsp;in&nbsp;order&nbsp;to&nbsp;inflate&nbsp;the&nbsp;price&nbsp;of&nbsp;their&nbsp;products.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▓█
+█▓&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▓█
+█▓&nbsp;&nbsp;As&nbsp;we&nbsp;grew&nbsp;older,&nbsp;we&nbsp;faced&nbsp;a&nbsp;bizarre&nbsp;landscape.&nbsp;Those&nbsp;who&nbsp;once&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▓█
+█▓&nbsp;&nbsp;embodied&nbsp;resistance&nbsp;turned&nbsp;their&nbsp;backs&nbsp;on&nbsp;everything&nbsp;they&nbsp;should&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▓█
+█▓&nbsp;&nbsp;have&nbsp;defended.&nbsp;The&nbsp;very&nbsp;people&nbsp;who,&nbsp;at&nbsp;our&nbsp;age,&nbsp;had&nbsp;fought,&nbsp;learned,&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▓█
+█▓&nbsp;&nbsp;and&nbsp;built&nbsp;knowledge,&nbsp;should&nbsp;now&nbsp;be&nbsp;guiding&nbsp;the&nbsp;new&nbsp;generations,&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▓█
+█▓&nbsp;&nbsp;keeping&nbsp;the&nbsp;flame&nbsp;alive.&nbsp;Instead,&nbsp;they&nbsp;abandoned&nbsp;their&nbsp;purpose&nbsp;and&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▓█
+█▓&nbsp;&nbsp;us&nbsp;along&nbsp;with&nbsp;it.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▓█
+█▓&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▓█
+█▓&nbsp;&nbsp;When&nbsp;we&nbsp;sought&nbsp;their&nbsp;help,&nbsp;we&nbsp;were&nbsp;cast&nbsp;aside.&nbsp;And&nbsp;no,&nbsp;we&nbsp;were&nbsp;not&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▓█
+█▓&nbsp;&nbsp;asking&nbsp;for&nbsp;some&nbsp;ultra-illegal&nbsp;favor,&nbsp;like&nbsp;setting&nbsp;up&nbsp;a&nbsp;darknet&nbsp;drug&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▓█
+█▓&nbsp;&nbsp;market.&nbsp;What&nbsp;we&nbsp;did&nbsp;was&nbsp;use&nbsp;their&nbsp;so-called&nbsp;∟free↔&nbsp;infrastructure&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▓█
+█▓&nbsp;&nbsp;to&nbsp;host,&nbsp;at&nbsp;zero&nbsp;cost,&nbsp;cracked&nbsp;copies&nbsp;of&nbsp;overpriced&nbsp;educational&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▓█
+█▓&nbsp;&nbsp;content.&nbsp;On&nbsp;the&nbsp;homepage,&nbsp;we&nbsp;thanked&nbsp;them&nbsp;for&nbsp;letting&nbsp;us&nbsp;share&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▓█
+█▓&nbsp;&nbsp;knowledge&nbsp;in&nbsp;their&nbsp;house.&nbsp;It&nbsp;didn↓t&nbsp;take&nbsp;long&nbsp;before&nbsp;they&nbsp;asked&nbsp;us&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▓█
+█▓&nbsp;&nbsp;to&nbsp;take&nbsp;it&nbsp;down&nbsp;and&nbsp;never&nbsp;mention&nbsp;their&nbsp;names&nbsp;again.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▓█
+█▓&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▓█
+█▓&nbsp;&nbsp;Part&nbsp;of&nbsp;us&nbsp;understands&nbsp;their&nbsp;stance¶staying&nbsp;neutral,&nbsp;avoiding&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▓█
+█▓&nbsp;&nbsp;trouble.&nbsp;But&nbsp;by&nbsp;doing&nbsp;so,&nbsp;they&nbsp;replicate&nbsp;the&nbsp;very&nbsp;inequalities&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▓█
+█▓&nbsp;&nbsp;they&nbsp;once&nbsp;fought&nbsp;against,&nbsp;keeping&nbsp;knowledge&nbsp;locked&nbsp;away&nbsp;for&nbsp;the&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▓█
+█▓&nbsp;&nbsp;privileged,&nbsp;condemning&nbsp;the&nbsp;rest&nbsp;of&nbsp;us&nbsp;to&nbsp;the&nbsp;same&nbsp;ignorance&nbsp;we&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▓█
+█▓&nbsp;&nbsp;were&nbsp;born&nbsp;into.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▓█
+█▓&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▓█
+█▓&nbsp;&nbsp;Haltman&nbsp;is&nbsp;not&nbsp;here&nbsp;to&nbsp;worship&nbsp;history,&nbsp;nor&nbsp;to&nbsp;rewrite&nbsp;it.&nbsp;We&nbsp;are&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▓█
+█▓&nbsp;&nbsp;here&nbsp;to&nbsp;write&nbsp;our&nbsp;own.&nbsp;We&nbsp;will&nbsp;publish&nbsp;what&nbsp;we&nbsp;discover,&nbsp;release&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▓█
+█▓&nbsp;&nbsp;what&nbsp;we&nbsp;learn,&nbsp;and&nbsp;spread&nbsp;what&nbsp;we&nbsp;create.&nbsp;No&nbsp;secrets&nbsp;held&nbsp;tight,&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▓█
+█▓&nbsp;&nbsp;no&nbsp;knowledge&nbsp;locked&nbsp;away.&nbsp;Code,&nbsp;exploits,&nbsp;defenses,&nbsp;theories¶&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▓█
+█▓&nbsp;&nbsp;everything&nbsp;must&nbsp;flow.&nbsp;Knowledge&nbsp;is&nbsp;oxygen;&nbsp;suffocation&nbsp;is&nbsp;death.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▓█
+█▓&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▓█
+█▓&nbsp;&nbsp;We&nbsp;are&nbsp;not&nbsp;revivalists.&nbsp;We&nbsp;are&nbsp;not&nbsp;nostalgics.&nbsp;We&nbsp;are&nbsp;creators&nbsp;of&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▓█
+█▓&nbsp;&nbsp;something&nbsp;untainted.&nbsp;If&nbsp;others&nbsp;bury&nbsp;their&nbsp;flags,&nbsp;let&nbsp;them.&nbsp;Ours&nbsp;is&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▓█
+█▓&nbsp;&nbsp;still&nbsp;being&nbsp;drawn¶line&nbsp;by&nbsp;line,&nbsp;scan&nbsp;by&nbsp;scan,&nbsp;byte&nbsp;by&nbsp;byte.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▓█
+█▓&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▓█
+█▓&nbsp;&nbsp;We&nbsp;will&nbsp;fight,&nbsp;even&nbsp;against&nbsp;those&nbsp;who&nbsp;once&nbsp;called&nbsp;themselves&nbsp;our&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▓█
+█▓&nbsp;&nbsp;brothers.&nbsp;You&nbsp;have&nbsp;been&nbsp;invited.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▓█
+█▓&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▓█
+█▓&nbsp;&nbsp;Joins&nbsp;us&nbsp;at:&nbsp;<span style="color:white; background:black">members@haltman.io</span><span style="color:white; background:black">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▓█</span>
+▀▓▄&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▄▓▀
+&nbsp;&nbsp;&nbsp;▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀&nbsp;N&nbsp;O&nbsp;T&nbsp;E&nbsp;S&nbsp;▀▀▀▀▀&nbsp;&nbsp;▄
+██▒▒▀&nbsp;&nbsp;▄▄▄▄▄&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▄▄▄▄▄&nbsp;&nbsp;&nbsp;▄▄▄▄▄&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▄▄▄&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▄▄▄▄▄▄▄&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▄▄▄▄▄&nbsp;&nbsp;&nbsp;▄▒█
+▓▒▀&nbsp;▄██▀&nbsp;▄&nbsp;▀██▄&nbsp;&nbsp;&nbsp;▄██▀&nbsp;▄▄&nbsp;&nbsp;▄██▀&nbsp;▄&nbsp;▀██▄&nbsp;&nbsp;▄▄&nbsp;▀█░▄&nbsp;&nbsp;&nbsp;▄██▀&nbsp;▄▄&nbsp;▄▄&nbsp;▀█░▄&nbsp;&nbsp;██▓&nbsp;▀▀&nbsp;&nbsp;&nbsp;▀▀▀
+██&nbsp;▐██▌&nbsp;░██&nbsp;▐██▌&nbsp;▐██▌&nbsp;░██&nbsp;▐██▌&nbsp;░██&nbsp;▐██▌&nbsp;██▓&nbsp;▐█░▌&nbsp;▐██▌&nbsp;░██&nbsp;██▓&nbsp;▐█░▌&nbsp;▀▀▀▀▀██▓&nbsp;▀██
+▄█&nbsp;░██&nbsp;&nbsp;░██&nbsp;&nbsp;██░&nbsp;░██&nbsp;&nbsp;░██&nbsp;░██&nbsp;&nbsp;░██&nbsp;&nbsp;██░&nbsp;██▓&nbsp;&nbsp;██▓&nbsp;░██&nbsp;&nbsp;░██&nbsp;██▓&nbsp;&nbsp;██▓&nbsp;██▓&nbsp;&nbsp;██▓&nbsp;▄█▀
+▓█&nbsp;░██&nbsp;&nbsp;░██&nbsp;&nbsp;██░&nbsp;░██&nbsp;&nbsp;░██&nbsp;░██&nbsp;&nbsp;░██&nbsp;&nbsp;██░&nbsp;██▓&nbsp;&nbsp;██▓&nbsp;░██&nbsp;&nbsp;░██&nbsp;██▓&nbsp;&nbsp;██▓&nbsp;██▓&nbsp;&nbsp;██▓&nbsp;&nbsp;▄▄
+█▀&nbsp;░██&nbsp;&nbsp;░██&nbsp;&nbsp;██░&nbsp;░██&nbsp;&nbsp;░██&nbsp;░██&nbsp;&nbsp;░██&nbsp;&nbsp;██░&nbsp;██▓&nbsp;&nbsp;██▓&nbsp;░██&nbsp;&nbsp;░██&nbsp;██▓&nbsp;&nbsp;██▓&nbsp;██▓&nbsp;&nbsp;██▓&nbsp;█&nbsp;▄
+▀▓&nbsp;░██&nbsp;&nbsp;░██&nbsp;&nbsp;██░&nbsp;░██&nbsp;&nbsp;▀▀▀&nbsp;░██&nbsp;&nbsp;░██&nbsp;&nbsp;██░&nbsp;██▓▄▄██▀&nbsp;░██&nbsp;&nbsp;▀▀▀&nbsp;██▓&nbsp;&nbsp;██▓&nbsp;██▓&nbsp;&nbsp;██▓&nbsp;▀&nbsp;▓
+██&nbsp;░██&nbsp;&nbsp;░██&nbsp;&nbsp;██░&nbsp;░██▀▀&nbsp;&nbsp;&nbsp;&nbsp;░██&nbsp;&nbsp;░██&nbsp;&nbsp;██░&nbsp;██▓&nbsp;&nbsp;██▓&nbsp;░██▀▀&nbsp;&nbsp;&nbsp;&nbsp;██▓▀▀██▄&nbsp;▐█░▌&nbsp;██▓&nbsp;███
+░█&nbsp;░██&nbsp;&nbsp;░██&nbsp;&nbsp;██░&nbsp;░██▄▄░██&nbsp;░██&nbsp;&nbsp;░██&nbsp;&nbsp;██░&nbsp;██▓&nbsp;▐█░▌&nbsp;░██▄▄░██&nbsp;██▓&nbsp;&nbsp;██▓&nbsp;&nbsp;▀█░▄&nbsp;▀▀&nbsp;&nbsp;█▒
+▒█&nbsp;░██&nbsp;&nbsp;▀▀▀&nbsp;&nbsp;▀▀▀&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▀▀▀&nbsp;▀▀▀&nbsp;&nbsp;▀▀▀&nbsp;&nbsp;▀▀▀&nbsp;▄▄▄▄█░▀&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▀▀▀&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▀▀▀&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▀▀▀▀&nbsp;▀█
+▀&nbsp;&nbsp;▄▄▄&nbsp;M&nbsp;E&nbsp;M&nbsp;B&nbsp;E&nbsp;R&nbsp;▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
+▄█▀&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▀█▄
+█▓&nbsp;&nbsp;&nbsp;Leaders&nbsp;/&nbsp;Founders&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▓█
+█▓&nbsp;&nbsp;&nbsp;Extencil&nbsp;.............&nbsp;Just&nbsp;started&nbsp;this&nbsp;shit&nbsp;....................&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▓█
+█▓&nbsp;&nbsp;&nbsp;Mad&nbsp;Dog&nbsp;..............&nbsp;Always&nbsp;present&nbsp;............................&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▓█
+█▓&nbsp;&nbsp;&nbsp;Behemoth_Hack&nbsp;........&nbsp;Our&nbsp;old-school&nbsp;friend&nbsp;.....................&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▓█
+█▓&nbsp;&nbsp;&nbsp;Ubermensch&nbsp;...........&nbsp;A&nbsp;new&nbsp;boy&nbsp;with&nbsp;a&nbsp;great&nbsp;future&nbsp;.............&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▓█
+█▓&nbsp;&nbsp;&nbsp;Clonazepunk&nbsp;..........&nbsp;Our&nbsp;Hardware&nbsp;and&nbsp;low-level&nbsp;guy&nbsp;............&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▓█
+█▓&nbsp;&nbsp;&nbsp;available&nbsp;............&nbsp;Join-us&nbsp;at&nbsp;members@haltman.io&nbsp;.............&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▓█
+█▓&nbsp;&nbsp;&nbsp;available&nbsp;............&nbsp;Join-us&nbsp;at&nbsp;members@haltman.io&nbsp;.............&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▓█
+█▓&nbsp;&nbsp;&nbsp;available&nbsp;............&nbsp;Join-us&nbsp;at&nbsp;members@haltman.io&nbsp;.............&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▓█
+█▓&nbsp;&nbsp;&nbsp;available&nbsp;............&nbsp;Join-us&nbsp;at&nbsp;members@haltman.io&nbsp;.............&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▓█
+▀▓▄&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▄▓▀
+&nbsp;&nbsp;&nbsp;▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀&nbsp;L&nbsp;i&nbsp;S&nbsp;T&nbsp;▀▀▀▀▀&nbsp;&nbsp;▄
+
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:black; background:black">the</span><span style="color:gray; background:black">&nbsp;&nbsp;</span><span style="color:darkred; background:black">▀▄▄</span><span style="color:gray; background:black"></span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:black; background:black">u</span><span style="color:gray; background:black">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color:darkred; background:black">█</span><span style="color:yellow; background:darkred">░&nbsp;░</span><span style="color:darkred; background:black">▄</span><span style="color:gray; background:black"></span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:darkred; background:black">▐█</span><span style="color:yellow; background:darkred">░▓▒</span><span style="color:darkred; background:black">█</span><span style="color:gray; background:black">&nbsp;&nbsp;&nbsp;</span><span style="color:black; background:black">Sho</span><span style="color:gray; background:black"></span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:darkred; background:black">█</span><span style="color:yellow; background:darkred">░▓█▓░</span><span style="color:darkred; background:black">▌</span><span style="color:gray; background:black">&nbsp;</span><span style="color:black; background:black">I&nbsp;wo</span><span style="color:gray; background:black"></span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:darkred; background:black">▐</span><span style="color:yellow; background:darkred">░▒▓▓░</span><span style="color:darkred; background:black">█▌</span><span style="color:gray; background:black">&nbsp;</span><span style="color:black; background:black">thin</span><span style="color:gray; background:black"></span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:darkred; background:black">▀</span><span style="color:darkred; background:darkred">&nbsp;</span><span style="color:yellow; background:darkred">▀░</span><span style="color:darkred; background:black">█▀</span><span style="color:gray; background:black">&nbsp;&nbsp;</span><span style="color:black; background:black">as</span><span style="color:gray; background:black">&nbsp;</span><span style="color:black; background:black">s</span><span style="color:gray; background:black"></span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:dimgray; background:black">▄</span><span style="color:darkred; background:black">▀</span><span style="color:dimgray; background:black">▄</span><span style="color:gray; background:black">&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color:black; background:black">enc</span><span style="color:gray; background:black"></span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▄<span style="color:white; background:gray">▒▓</span><span style="color:white; background:black">▄▄</span><span style="color:gray; background:black">&nbsp;</span><span style="color:dimgray; background:black">▒▓</span><span style="color:gray; background:black">&nbsp;&nbsp;▄■</span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▐<span style="color:white; background:gray">▒</span><span style="color:gray; background:black">▀&nbsp;&nbsp;&nbsp;</span><span style="color:dimgray; background:black">▐▓▌</span><span style="color:gray; background:black">▀▀▀</span><span style="color:white; background:gray">░</span><span style="color:gray; background:black">▌&nbsp;</span><span style="color:black; background:black">t</span><span style="color:gray; background:black"></span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▀<span style="color:white; background:gray">▒</span><span style="color:white; background:black">▄▄</span><span style="color:gray; background:black">&nbsp;&nbsp;</span><span style="color:dimgray; background:black">▀</span><span style="color:gray; background:black">&nbsp;</span><span style="color:white; background:black">▄▄</span><span style="color:white; background:gray">▒</span><span style="color:gray; background:black">▀&nbsp;&nbsp;</span><span style="color:black; background:black">t</span><span style="color:gray; background:black"></span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Wake&nbsp;up,&nbsp;Neo...&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:white; background:black">▐</span><span style="color:gray; background:black">▐▄</span><span style="color:white; background:black">▀</span><span style="color:white; background:gray">▓</span><span style="color:white; background:black">▀</span><span style="color:white; background:gray">▓</span><span style="color:white; background:black">▀</span><span style="color:white; background:gray">▓</span><span style="color:gray; background:black">&nbsp;▄▌&nbsp;</span><span style="color:black; background:black">ho</span><span style="color:gray; background:black"></span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The&nbsp;Matrix&nbsp;has&nbsp;you...&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:white; background:black">▐</span><span style="color:gray; background:black">▐█&nbsp;</span><span style="color:white; background:gray">▒</span><span style="color:gray; background:black">&nbsp;</span><span style="color:white; background:black">▄</span><span style="color:gray; background:black">&nbsp;</span><span style="color:white; background:gray">░</span><span style="color:gray; background:black">&nbsp;█&nbsp;</span><span style="color:black; background:black">wri</span><span style="color:gray; background:black"></span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Follow&nbsp;the&nbsp;white&nbsp;rabbit.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:white; background:black">▐</span><span style="color:gray; background:black">▐▌▐</span><span style="color:white; background:gray">░</span><span style="color:white; background:black">▌▐█▄</span><span style="color:white; background:gray">▒</span><span style="color:gray; background:black">█&nbsp;&nbsp;</span><span style="color:black; background:black">of</span><span style="color:gray; background:black"></span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Knock,&nbsp;knock,&nbsp;Neo.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:white; background:gray">▒</span><span style="color:gray; background:black">▐</span><span style="color:white; background:gray">░</span><span style="color:gray; background:black">▄▀▄</span><span style="color:white; background:gray">▓</span><span style="color:white; background:black">██</span><span style="color:white; background:gray">▓░</span><span style="color:gray; background:black"></span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▐<span style="color:white; background:gray">░</span><span style="color:gray; background:black">▐</span><span style="color:white; background:gray">░▒▒▓</span><span style="color:white; background:black">███</span><span style="color:white; background:gray">▓▒</span><span style="color:gray; background:black"></span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▀▐<span style="color:white; background:gray">▒▓</span><span style="color:white; background:black">█████</span><span style="color:white; background:gray">▒░</span><span style="color:gray; background:black">▌</span><span style="color:black; background:black">Hai</span><span style="color:gray; background:black"></span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▄█<span style="color:white; background:gray">░▒▓</span><span style="color:white; background:black">███</span><span style="color:white; background:gray">▓▒░</span><span style="color:gray; background:black">█▄</span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▀▀▀<span style="color:white; background:gray">▒</span><span style="color:white; background:black">█▀</span><span style="color:white; background:gray">▓▒</span><span style="color:gray; background:black">▀█▀</span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:white; background:black">▀</span><span style="color:gray; background:black">&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color:black; background:black">I</span><span style="color:gray; background:black">&nbsp;</span><span style="color:black; background:black">h</span><span style="color:gray; background:black"></span>
+
+</pre>
+</div>
+
+<!--
+Credits:
+- Logo: https://patorjk.com/software/taag/?p=display&f=Big%20Money-ne&t=Haltman&x=none
+- EMag Style: https://16colo.rs/pack/bafh-pack2/Bafh.nfo
+- Candle: https://16colo.rs/pack/mist0495/CTMA-CAN.ANS
+
+I forked part of the code of https://tramoia.sh/. I really hate html, sorry.
+
+-->
+<!-- Input Options:Array
+(
+    [HTML_format] => <span style="color:%foreground%; background:%background%">%content%</span>
+    [HTML_show_sauce] => 1
+    [HTML_background] => black
+    [HTML_foreground] => white
+    [HTML_header] => 1
+    [HTML_use_nbsp] => 1
+    [HTML_use_br] => 
+    [HTML_show_null] =>  
+    [width] => auto
+    [use5m] => auto
+    [use7m] => 1
+    [ANSIfg] => 37
+    [ANSIbg] => 40
+    [cp437_to_utf8] => 1
+    [broken_pipe] => 1
+    [preserve_crlftab] => 1
+    [preserve_escape] => 1
+)
+ -->
+</body></html>
